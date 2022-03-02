@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234567890lina
+    #serverTimezone=UTC解决时区的报错
+    url: jdbc:mysql://127.0.0.1:3306/market?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    main:
+      allow-bean-definition-overriding: true
+
+logging.level.org.springframework.boot.autoconfigure: error
+
